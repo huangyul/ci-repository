@@ -7,7 +7,10 @@
     "cz": "git add . && npx git-cz"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.2"
   },
   "config": {
     "commitizen": {
